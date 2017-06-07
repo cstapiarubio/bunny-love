@@ -1,1 +1,21 @@
-main.css
+*{
+	margin: 0;
+	padding: 0:;
+}
+
+.flex-container{
+	display: flex;
+}
+
+nav{
+	background-color: #175A86;
+}
+nav a{
+	color: whitesmoke;
+	text-decoration: none;
+	padding: 10px;
+	flex-direction: row;
+	justify-content: flex-start;
+	font-family: 'Prompt', sans-serif;
+	font-size: 15px;
+}
