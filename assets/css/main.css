@@ -1,21 +1,47 @@
 *{
 	margin: 0;
-	padding: 0:;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 .flex-container{
 	display: flex;
 }
 
+/*diseño navegador*/
+
 nav{
 	background-color: #175A86;
+	position: fixed;
+	width: 100%;
 }
+
 nav a{
 	color: whitesmoke;
 	text-decoration: none;
-	padding: 10px;
-	flex-direction: row;
-	justify-content: flex-start;
+	padding: 5px;
 	font-family: 'Prompt', sans-serif;
 	font-size: 15px;
+}
+
+nav img{
+	width: 60px;
+}
+
+#navegador{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav a:hover{
+	background-color: #459FDA;
+}
+
+/*diseño home col-12*/
+
+#home {
+	width: 100%;
+	display: block;
 }
