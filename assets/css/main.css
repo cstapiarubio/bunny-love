@@ -39,9 +39,25 @@ nav a:hover{
 	background-color: #459FDA;
 }
 
-/*diseño home col-12*/
+/*diseño sección portada*/
 
 #home {
 	width: 100%;
 	display: block;
+}
+
+.col-3{
+	color: whitesmoke;
+	background-color: #177697;
+	display: inline-block;
+	margin-right: 50px;
+
+}
+
+.col-3 h2{
+color: #F15EDD;
+}
+
+.col-3 img{
+	width: 100%;
 }
